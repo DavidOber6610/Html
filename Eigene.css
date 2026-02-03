@@ -1,0 +1,85 @@
+
+header {
+    
+    background-color: #cecece;
+    border: 2px;
+    padding: 20px; 
+    margin-bottom: 20px;
+    text-align: center; 
+}
+.home {
+position: absolute;
+    top: 5px;
+    right: 0; 
+     width:120px; 
+     height:120px;
+}
+.Überschrift{ 
+font-size: 2rem;
+margin-bottom: 3rem;
+}
+
+Main{
+font-size: 1.5rem;
+table {
+  font-size: 1.5rem;
+}
+}
+Footer{
+font-size: 1.5rem;
+/*border-radius: 3rem;
+border-top: 3px solid brown;
+background: black;
+height: 150px;*/
+
+}
+
+#nutzen{
+    font-size: 2rem;
+
+}
+
+#MöglicheFehler{
+    font-size: 2rem;
+
+}
+#Erklärung{
+    font-size: 2rem;
+}
+@media (max-width: 1000px) {
+header{font-size: 4rem;}
+.Überschrift{ 
+font-size: 4rem;
+margin-bottom: 3rem;
+}
+.home{
+    top: 0px;
+    right: 0; 
+     width:200px; 
+     height:200px;
+    }
+Main{
+font-size: 3rem;
+table {
+  font-size: 3rem;
+}
+}
+Footer{
+font-size: 3rem;
+
+}
+
+#nutzen{
+    font-size: 4rem;
+
+}
+
+#MöglicheFehler{
+    font-size: 4rem;
+
+}
+#Erklärung{
+    font-size: 4rem;
+}
+
+}
